@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!--<link rel="stylesheet" href="css/icon-font.css">-->
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/logo-white.png">
+        
+        <title>Our | Exciting Services</title>
+        <style>
+            /*
+    
+    All grid code is placed in a 'supports' rule (feature query) at the bottom of the CSS (Line 77). 
+            
+    The 'supports' rule will only run if your browser supports CSS grid.
+    
+    Flexbox is used as a fallback so that browsers which don't support grid will still recieve an identical layout.
+    
+    */
+    
+    @import url(https://fonts.googleapis.com/css?family=Montserrat:500);
+    
+    :root {
+        /* Base font size */
+        font-size: 10px;
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        min-height: 100vh;
+        background-color: #fafafa;
+    }
+    
+    .container {
+        max-width: 100rem;
+        margin: 0 auto;
+        padding: 0 2rem 2rem;
+    }
+    
+    .heading {
+        font-family: "Montserrat", Arial, sans-serif;
+        font-size: 4rem;
+        font-weight: 500;
+        line-height: 1.5;
+        text-align: center;
+        padding: 3.5rem 0;
+        color: #1a1a1a;
+    }
+    
+    .heading span {
+        display: block;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        /* Compensate for excess margin on outer gallery flex items */
+        margin: -1rem -1rem;
+    }
+    
+    .gallery-item {
+        /* Minimum width of 24rem and grow to fit available space */
+        flex: 1 0 24rem;
+        /* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+        margin: 1rem;
+        box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+        overflow: hidden;
+    }
+    
+    .gallery-image {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 400ms ease-out;
+    }
+    
+    .gallery-image:hover {
+        transform: scale(1.15);
+    }
+    
+    /*
+    
+    The following rule will only run if your browser supports CSS grid.
+    
+    Remove or comment-out the code block below to see how the browser will fall-back to flexbox styling. 
+    
+    */
+    
+    @supports (display: grid) {
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+            grid-gap: 2rem;
+        }
+    
+        .gallery,
+        .gallery-item {
+            margin: 0;
+        }
+    }
+    
+        </style>
+    </head>
+
+    <body id="headers">
+        
+
+      
+        <div class="navigation" id="navigation">
+            
+            </div>
+            
+            <header class="header">
+            <div class="header__logo-box">
+                <img src="img/logo-white.png" alt="Logo" class="header__logo">
+            </div>
+            
+            <div class="header__text-box">
+                <h1 class="heading-primary">
+                    <span class="heading-primary--main">PARTY</span>
+                    <span class="heading-primary--sub">BARTENDER</span>
+                </h1>
+            
+                <a href="index.html" class="btn btn--white btn--animated">ENJOY & CHILL</a>
+            </div>
+            </header>
+        <main>
+            <section class="section-about">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Our | Gallery
+                    </h2>
+                </div>
+                <div class="container">
+                
+                    <div class="gallery">
+                
+                       
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B2LeC0vlUB-/" >
+                                <img class="gallery-image" 
+                                src="img/insta1.jpg" alt="">
+                            </a>
+                        </div>
+                
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B733Xbtlitm/">
+                                <img class="gallery-image" src="img/insta2.jpg" alt="">
+                            </a>
+                        </div>
+                
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B7q9LorFpcO/">
+                                <img class="gallery-image" src="img/insta3.jpg" alt="">
+                            </a>
+                        </div>
+                
+                        
+                
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B62NfzHFtV-/">
+                                <img class="gallery-image" src="img/insta4.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B6CmkyiFfTJ/">
+                                <img class="gallery-image" src="img/insta5.jpg" alt="">
+                            </a>    
+                        </div>
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B5zwxUolckI/">
+                                <img class="gallery-image" src="img/insta6.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/B0OB2fFliTW/">
+                                <img class="gallery-image" src="img/insta7.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="gallery-item">
+                            <a href="https://www.instagram.com/p/BzxTC_wlSZB/">
+                                <img class="gallery-image" src="img/insta8.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                
+                </div>
+            </section>
+
+           
+           
+
+         
+
+            <section class="section-book" id="forms">
+                
+            </section>
+        </main>
+
+        <footer class="footer" id="footers">
+           
+        </footer>
+        <div class="popup" id="popup">
+            <div class="popup__content" style="text-align: center;">
+           
+                <div class="popup__right">
+                    <a href="#" class="popup__close">&times;</a>
+                    <form action="popup.php" class="form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary">
+                                send enquiry
+                            </h2>
+                        </div>
+            
+                        <div class="form__group">
+                            <input type="text" class="form__input pop-form" placeholder="Full name" id="name" required>
+                            <label for="name" class="form__label">Full name</label>
+                        </div>
+            
+                        <div class="form__group">
+                            <input type="email" class="form__input pop-form" placeholder="Email address" id="email" required>
+                            <label for="email" class="form__label">Email address</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input pop-form" placeholder="Message" id="name" required>
+                            <label for="name" class="form__label">Message</label>
+                        </div>
+                        <div class="form__group">
+                            <button class="btn btn--green">SUBMIT</button>  
+                        </div>
+                    </form>
+                  
+                </div>
+            </div>
+        </div>
+        <section class="social-icons" id="socialed">
+          
+        </section>
+        <section class="section-enquiry" id="enq">
+          
+        </section>
+        <script src="socials.js"></script>
+        <script src="header.js"></script> 
+        <script src="footer.js"></script>
+        <script src="form.js"></script>
+    </body>
+</html>
